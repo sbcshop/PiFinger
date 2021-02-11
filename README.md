@@ -19,6 +19,8 @@ Choose Interfacing Options -> Serial -> No -> Yes
 
 ``` cd PiFinger ```
 
+``` cd Raspberry_Pi ```
+
 Run GUI by running below command:
 
 ``` python3 PiFinger_GUI.py ```
