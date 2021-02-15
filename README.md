@@ -28,12 +28,12 @@ Run GUI by running below command:
 Select <b>COM port</b> and Baud Rate ( default is 115200) from above GUI ("/dev/ttyS0" in case of default connection), 
 and click on connect button to start communication with fingerprint sensor.
 
-#### Features 
+#### GUI Features 
 
-1) Compare Fingerprint -
+1) Compare Fingerprint - Option to Compare registered Fingerprint.
 
-2) Add Fingerprint -
+2) Add Fingerprint - Add New Fingerprint, will assign an ID for each successful registration.
 
-3) Remove Fingerprint ( By ID) -
+3) Remove Fingerprint ( By ID) - Remove registered Fingerprint for a specific ID.
 
-4) Remove All Fingerprint (Registered) -
+4) Remove All Fingerprint (Registered) - Remove all fingeprint in a single click.
