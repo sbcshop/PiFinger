@@ -1,5 +1,5 @@
 # PiFinger
-Biometric HAT for Raspberry Pi
+PiFinger, the first-ever Fingerprint HAT for Raspberry Pi Comprise of onboard Nuvoton MCU with an on-chip crypto-accelerator, Cortex-M23 TrustZone, and XOM facilities. A user can use the communication protocol to the PiFinger with commands over the UART protocol with the Baud rate 115200 bps or USB 2.0 full speed.
 
 ### Enable I2C and Serial Interface
 
