@@ -27,7 +27,7 @@ class FingerprintSensor(SerialComm):
     def __init__(self):
         super().__init__()
 
-    def connect_sensor(self, port='/dev/ttyS0', baud_rate=115200,
+    def connect_sensor(self, port='/dev/ttyS0', baud_rate=9600,
                        use_thread=True):
         return self.connect_port(port=port, baud_rate=baud_rate,
                                  timeout=0.5, use_thread=use_thread)

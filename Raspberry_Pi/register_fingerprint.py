@@ -2,7 +2,7 @@
 from fingerprint import FingerprintSensor
 
 #  Set the serial comport for the connected sensor
-COM_PORT = "COM7"  # /dev/ttyS0"
+COM_PORT = "COM15"  # /dev/ttyS0"
 
 #  Create class object
 fp = FingerprintSensor()
