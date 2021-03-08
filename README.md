@@ -48,6 +48,16 @@ Run GUI by running below command:
 Select <b>COM port</b> and Baud Rate ( default is 115200) from above GUI ("/dev/ttyS0" in case of default connection), 
 and click on connect button to start communication with fingerprint sensor.
 
+### LED display explanation
+
+The LED light of the PiFinger shows the current working status.
+
+If the LED1 and the LED2 flash in turn, it means that the PiFinger is in operation mode. If the LED1 or the LED2 is blinking alone, it means that the PiFinger is in the demo mode.
+
+The PiFinger will be in the demo mode after powered on or reset. Send any command to it will make it leave demo mode and enter operation mode immediately, and it will
+process the received command. When the PiFinger is in operation mode, only power on or reset it can make it back to demo mode.
+
+
 #### GUI Features 
 
 1) Compare Fingerprint - Option to Compare registered Fingerprint.
