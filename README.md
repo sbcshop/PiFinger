@@ -1,6 +1,17 @@
 # PiFinger
 PiFinger, the first-ever Fingerprint HAT for Raspberry Pi Comprise of onboard Nuvoton MCU with an on-chip crypto-accelerator, Cortex-M23 TrustZone, and XOM facilities. A user can use the communication protocol to the PiFinger with commands over the UART protocol with the Baud rate 115200 bps or USB 2.0 full speed.
 
+### PINOUT
+
+|  PiFinger Peripheral |  Raspberry Pi Pin (BCM) |
+| -------------------- |  ---------------------  |
+|  Fingerprint TX      |    GPIO15 (RXD)         |
+|  Fingerprint RX      |    GPIO14 (TXD)         |
+|  OLED SDA            |    GPIO2  (SDA)         |
+|  OLED SCL            |    GPIO3  (SCL)         |
+|  BUZZER              |    GPIO13               |
+
+
 ### Enable I2C and Serial Interface for Raspberry Pi
 
  Open a terminal and run the following commands to enable I2C and Serial：
