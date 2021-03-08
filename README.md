@@ -11,6 +11,7 @@ PiFinger, the first-ever Fingerprint HAT for Raspberry Pi Comprise of onboard Nu
 |  OLED SCL            |    GPIO3  (SCL)         |
 |  BUZZER              |    GPIO13               |
 
+Note: First registered fingerprint will act as administrator Fingerprint, You have to confirm admin fingerprint before running registration command. Else device will stay in compare mode. 
 
 ### Enable I2C and Serial Interface for Raspberry Pi
 
