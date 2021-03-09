@@ -27,7 +27,7 @@ class MainApp(tk.Tk):
     """
     This is a class for Creating Frames and Buttons for left and top frame
     """
-    current_baud = 115200
+    current_baud = 9600
 
     def __init__(self, *args, **kwargs):
         global logo, img, xy_pos
