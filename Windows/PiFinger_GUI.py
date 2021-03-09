@@ -142,7 +142,7 @@ class MainApp(tk.Tk):
 
         tk.Label(serial_box, fg="gray10", bg="white",
                  font=helvetica_bold, text="Baud Rate").place(x=2, y=40)
-        tk.Label(serial_box, text="115200", borderwidth=2, width=14,
+        tk.Label(serial_box, text="9600", borderwidth=2, width=14,
                  justify="left", anchor="w", bg="white",
                  relief="groove").place(x=140, y=40)
 
@@ -168,7 +168,7 @@ class MainApp(tk.Tk):
         """
         if self.connect_button.cget(
                 'text') == 'Connect' and self._com_port.get():
-            robot.connect_sensor(port=COMPORT_BASE + self._com_port.get(),
+            robot.connect_sensor(port=self._com_port.get(),
                                  baud_rate=self.current_baud)
             if robot.alive:
                 self.connect_button.config(relief="sunken", text="Disconnect")
