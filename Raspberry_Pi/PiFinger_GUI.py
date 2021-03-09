@@ -18,7 +18,7 @@ from time import sleep
 import webbrowser
 
 if os.name == "posix":
-    COMPORT_BASE = "/dev/"
+    COMPORT_BASE = "/dev/ttyS0"
 else:
     COMPORT_BASE = ""
 
