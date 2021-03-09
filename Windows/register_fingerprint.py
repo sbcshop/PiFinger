@@ -8,7 +8,7 @@ COM_PORT = "COM15"  # /dev/ttyS0"
 fp = FingerprintSensor()
 #  Initialise the sensor serial with the COM port and fixed baud rate of
 #  115200, set "use_thread" argument as false
-fp.connect_sensor(port=COM_PORT, baud_rate=115200, use_thread=False)
+fp.connect_sensor(port=COM_PORT, baud_rate=9600, use_thread=False)
 
 #  Use register_fingerprint function of FingerprintSensor to send
 #  fingerprint registration command to the sensor
