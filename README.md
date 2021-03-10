@@ -3,6 +3,8 @@ PiFinger, the first-ever Fingerprint HAT for Raspberry Pi Comprise of onboard Nu
 
 <b> Communication Protocol : </b> https://github.com/sbcshop/PiFinger/wiki/Communication-Protocol
 
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/products/RaspberryPiFingerprintHAT_700x.png?v=1615200475" width="400" height="400" />
+
 ### PINOUT
 
 |  PiFinger Peripheral |  Raspberry Pi Pin (BCM) |
