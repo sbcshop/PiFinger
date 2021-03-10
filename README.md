@@ -46,14 +46,23 @@ Choose Interfacing Options -> Serial -> No -> Yes
 
 ### For Raspberry Pi
 
-Run PiFinger GUI by running below command:
+* Run PiFinger GUI by running below command:
 
 ``` python3 PiFinger_GUI.py ``` or using any python3 supported ide.
 
-Select <b>COM port</b> and Baud Rate ( default is 9600) from above GUI ("/dev/ttyS0" in case of default connection), 
+* Select <b>COM port</b> and Baud Rate ( default is 9600) from above GUI ("/dev/ttyS0" in case of default connection), 
 and click on connect button to start communication with fingerprint sensor.
 
 <img src="Images/pifinger_connect_pi.gif" width="600" height="500" />
+
+### For Windows
+
+* Run PiFinger GUI by running "PiFinger_GUI.py" file with any python3 supported ide.
+
+* Select <b>COM port</b> and Baud Rate ( default is 9600) from above GUI ("COM7" (check comport from device manager) in case of default connection), 
+and click on connect button to start communication with fingerprint sensor.
+
+<img src="Images/pifinger_connect_win.gif" width="600" height="500" />
 
 #### GUI Features 
 
