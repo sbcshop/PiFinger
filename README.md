@@ -53,7 +53,7 @@ Run PiFinger GUI by running below command:
 Select <b>COM port</b> and Baud Rate ( default is 9600) from above GUI ("/dev/ttyS0" in case of default connection), 
 and click on connect button to start communication with fingerprint sensor.
 
-<img src="Images/pifinger_connect_pi.gif" />
+<img src="Images/pifinger_connect_pi.gif" width="600" height="500" />
 
 #### GUI Features 
 
