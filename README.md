@@ -15,9 +15,9 @@ PiFinger, the first-ever Fingerprint HAT for Raspberry Pi Comprise of onboard Nu
 |  OLED SCL            |    GPIO3  (SCL)         |
 |  BUZZER              |    GPIO13               |
 
-Note: First registered fingerprint will act as administrator Fingerprint, You have to confirm admin fingerprint before running registration command. Else device will stay in compare mode. 
+Note: First registered fingerprint will act as administrator Fingerprint, You have to confirm admin fingerprint before running any command once registered fingerprint. Else device will stay in compare mode. 
 
-### Enable I2C and Serial Interface for Raspberry Pi
+### Enable I2C and Serial Interface for Raspberry Pi (Not required in case of windows)
 
  Open a terminal and run the following commands to enable I2C and Serial：
 
@@ -37,20 +37,33 @@ Choose Interfacing Options -> Serial -> No -> Yes
 
 ## Testing
 
-### Clone Repository
+* Connect PiFinger on top of 40 pin stackable GPIO header of Raspberry Pi.
+* Now Clone/Download PiFinger Repository by running below command or directly download from github
 
 ``` git clone https://github.com/sbcshop/PiFinger.git ```
 
-``` cd PiFinger ```
+* Open cloned/downloaded folder and choose your environment folder (i.e : Raspberry Pi or Windows)
 
-``` cd Raspberry_Pi ```
+### For Raspberry Pi
 
-Run GUI by running below command:
+Run PiFinger GUI by running below command:
 
-``` python3 PiFinger_GUI.py ```
+``` python3 PiFinger_GUI.py ``` or using any python3 supported ide.
 
-Select <b>COM port</b> and Baud Rate ( default is 115200) from above GUI ("/dev/ttyS0" in case of default connection), 
+Select <b>COM port</b> and Baud Rate ( default is 9600) from above GUI ("/dev/ttyS0" in case of default connection), 
 and click on connect button to start communication with fingerprint sensor.
+
+<img src="Images/pifinger_connect_pi.gif" />
+
+#### GUI Features 
+
+1) Compare Fingerprint - Option to Compare registered Fingerprint.
+
+2) Add Fingerprint - Add New Fingerprint, will assign an ID for each successful registration.
+
+3) Remove Fingerprint ( By ID) - Remove registered Fingerprint for a specific ID.
+
+4) Remove All Fingerprint (Registered) - Remove all fingeprint in a single click.
 
 ### LED display explanation
 
@@ -62,12 +75,4 @@ The PiFinger will be in the demo mode after powered on or reset. Send any comman
 process the received command. When the PiFinger is in operation mode, only power on or reset it can make it back to demo mode.
 
 
-#### GUI Features 
 
-1) Compare Fingerprint - Option to Compare registered Fingerprint.
-
-2) Add Fingerprint - Add New Fingerprint, will assign an ID for each successful registration.
-
-3) Remove Fingerprint ( By ID) - Remove registered Fingerprint for a specific ID.
-
-4) Remove All Fingerprint (Registered) - Remove all fingeprint in a single click.
