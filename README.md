@@ -53,7 +53,7 @@ Choose Interfacing Options -> Serial -> No -> Yes
 * Select <b>COM port</b> and Baud Rate ( default is 9600) from above GUI ("/dev/ttyS0" in case of default connection), 
 and click on connect button to start communication with fingerprint sensor.
 
-<img src="Images/pifinger_connect_pi.gif" width="600" height="500" />
+<img src="Images/pifinger_connect_pi.gif" width="600" height="400" />
 
 ### For Windows
 
@@ -62,7 +62,7 @@ and click on connect button to start communication with fingerprint sensor.
 * Select <b>COM port</b> and Baud Rate ( default is 9600) from above GUI ("COM7" (check comport from device manager) in case of default connection), 
 and click on connect button to start communication with fingerprint sensor.
 
-<img src="Images/pifinger_connect_win.gif" width="600" height="500" />
+<img src="Images/pifinger_connect_win.gif" width="600" height="400" />
 
 #### GUI Features 
 
